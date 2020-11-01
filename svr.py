@@ -16,7 +16,7 @@ dataset = pd.read_csv("Position_Salaries.csv")
 x = dataset.iloc[:,1:2].values
 y = dataset.iloc[:,2].values
 
-# We reshaped it so that we could apply feature scaling on it, we basically conveted into an array
+# We reshaped it so that we could apply feature scaling on it, we basically conveted into an matrix
 y=np.reshape(y,(len(y),1))
 
 
