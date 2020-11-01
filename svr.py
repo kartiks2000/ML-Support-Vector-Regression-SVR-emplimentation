@@ -61,7 +61,7 @@ print(y_pred)
 
 
 
-# Visualising the Polynomial SVR results
+# Visualising the SVR results
 plt.scatter(x, y, color = 'red')
 plt.plot(x, regressor.predict(x), color = 'blue')
 plt.title('Truth or Bluff (SVR)')
